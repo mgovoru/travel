@@ -80,7 +80,7 @@ if (popr) {
 		popr.style.cssText = `display:none;`;
 		pops.style.cssText = `display:none;`;
 		popb.style.cssText = `display:block;`;
-
+		pop.style.cssText = `height:300px`;
 	})
 };
 
@@ -105,11 +105,11 @@ new Swiper('.image-slider',
 			},
 			481: {
 				slidesPerView: 3,
+				spaceBetween: 20,
 
 			},
 			768: {
-				spaceBetween: 60,
-
+				spaceBetween: 40,
 			}
 		},
 	});

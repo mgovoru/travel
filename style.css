@@ -871,6 +871,11 @@ main {
 		transform: translateX(0);
 		padding-bottom: 0px;
 	}
+	.swiper-img {
+		max-height: 300px;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
 	.swiper-text {
 		top: 5px;
 		left: 12px;
