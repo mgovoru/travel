@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="../travel/assets/icon/favicon.ico" type="image/x-icon">
+	<title>Travel_1</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo"><img src="../travel/assets/icon/logo.svg" alt="logo"
+						class="header__image"><span>Travel Portal</span>
+				</div>
+				<nav class="header__nav _active">
+					<button type="button" class="header__close header__close_non"></button>
+					<ul class="header__items">
+						<li class="header__item"><a href="#preview" class="header__link">How It Works</a></li>
+						<li class="header__item"><a href="#steps" class="header__link">Plan Your Trip</a></li>
+						<li class="header__item"><a href="#destinations" class="header__link">Destinations</a></li>
+						<li class="header__item"><a href="#stories" class="header__link">Travel Stories</a></li>
+						<li class="header__item header__item_no"><a href="#" class="header__link account">Account</a>
+						</li>
+						<li class="header__item header__item_no"><a href="#footer" class="header__link">Social Media</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__login">
+					<button class="header__button button">Login</button>
+				</div>
+				<div class="header__burger">
+					<button class="header__bur header__bur_no"><span></span></button>
+				</div>
+			</div>
+			<div class="header__pop-up pop-up">
+				<form class="pop-up__form">
+					<h2 class="pop-up__title">Log in to your account</h2>
+					<div class="pop-up__net">
+						<a href="#" class="pop-up__facebook"><span>Sign In with Facebook</span></a>
+						<a href="#" class="pop-up__google"><span>Sign In with Google</span></a>
+					</div>
+					<div class="pop-up__or">or</div>
+					<div class="pop-up__signin">
+						<label for="email">E-mail</label>
+						<input type="email" name="email" class="pop-up__email" id="email" value="">
+						<label for="password">Password</label>
+						<input type="password" name="password" id="password" class="pop-up__password" value="">
+						<button class="pop-up__button">Sign In</button>
+						<button class="pop-up__sign-up">Sign Up</button>
+					</div>
+					<a href="#" class="pop-up__forgot"><span>Forgot Your Password?</span></a>
+					<a href="#" class="pop-up__register">Don’t have an account?<span>Register</span></a>
+				</form>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__preview preview" id="preview">
+
+				<div class="preview__container">
+					<div class="preview__info">
+
+						<h1 class="preview__title">Explore the beauty of the World</h1>
+						<p class="preview__text">Receive personalized recommendations for countries, hotels,
+							activities
+							and more</p>
+						<div class="preview__input">
+							<form action="#" class="preview__form"><input class="preview__enter"
+									placeholder="What would you like to do?"></form> <button
+								class="preview__button button">Start Planning</button>
+						</div>
+					</div>
+				</div>
+				<div class="preview__cover -ibg"><img src="../travel/assets/1.jpg" alt="cover"
+						class="preview__desktop"><img src="../travel/assets/1_mobile.jpg" alt="cover"
+						class="preview__mobile"> </div>
+
+			</section>
+			<section class="page__steps steps" id="steps">
+				<div class="steps__container">
+					<div class="steps__info">
+						<h2 class="steps__title"> 3 STEPS TO THE PERFECT TRIP</h2>
+						<div class="steps__items">
+							<div class="steps__item steps__item_left">
+								<div class="steps__image"><img src="../travel/assets/icon/1.svg" alt="icon"
+										class="steps__img"></div>
+								<p class="steps__text">Tell us what you want to do</p>
+							</div>
+
+
+							<div class="steps__item steps__item_center">
+								<div class="steps__image"><img src="../travel/assets/icon/2.svg" alt="icon"
+										class="steps__img"></div>
+								<p class="steps__text">Share us preferable dates</p>
+							</div>
+
+
+							<div class="steps__item steps__item_right">
+								<div class="steps__image"><img src="../travel/assets/icon/3.svg" alt="icon"
+										class="steps__img"></div>
+								<p class="steps__text">We will give you recommendations</p>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section class="page__destinations destinations" id="destinations">
+
+				<div class="destinations__info">
+
+					<h2 class="destinations__title">POPULAR DESTINATIONS</h2>
+
+					<div class="destinations__slider swiper">
+
+						<div class="image-slider swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="../travel/assets/2.jpg" alt="picture" class="swiper-img">
+									<div class="swiper-text">spain</div>
+								</div>
+								<div class="swiper-slide"><img src="../travel/assets/3.jpg" alt="picture"
+										class="swiper-img">
+									<div class="swiper-text">japan</div>
+								</div>
+								<div class="swiper-slide"><img src="../travel/assets/4.jpg" alt="picture"
+										class="swiper-img">
+									<div class="swiper-text">usa</div>
+								</div>
+							</div>
+
+
+
+							<div class="swiper-pagination">
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+						</div>
+
+					</div>
+					<div class="destinations__container">
+						<div class="destinations__find"><button class="destinations__button button"> <img
+									src="../travel/assets/icon/arrow.svg" class="button__img" alt="arrow">Find
+								More</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__stories stories" id="stories">
+				<h2 class="stories__title">TRAVEL STORIES</h2>
+				<div class="stories__cover">
+					<div class="stories__opacit">
+						<div class="stories__container">
+							<div class="stories__body">
+								<div class="stories__column">
+									<div class="stories__row">
+										<div class="stories__item stories__item_first">
+											<div class="stories__picture">
+												<div class="stories__image -ibg">
+													<img src="../travel/assets/5.jpg" alt="picture"
+														class="stories__img">
+												</div>
+											</div>
+										</div>
+										<div class="stories__item stories__item_second">
+											<div class="stories__content">
+												<h3 class="stories__header">10 Photos of Attractive Thailand</h3>
+												<p class="stories__text" lang="zxx">Lorem ipsum dolor sit amet,
+													consectetur
+													adipiscing
+													elit,
+													sed do
+													eiusmod tempor incididunt ut labore et dolore magna
+													aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+													laboris
+													nisi
+													ut
+													aliquip ex ea commodo consequat. Duis
+													aute irure dolor in reprehenderit in voluptate velit esse cillum
+													dolore
+													eu
+													fugiat
+													nulla pariatur. Excepteur sint
+													occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+													mollit
+													anim
+													id
+													est laborum.Lorem ipsum dolor sit
+													amet, consectetur adipiscing elit...</p>
+												<a href="#" class="stories__link">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="stories__row">
+										<div class="stories__item stories__item_first">
+											<div class="stories__picture">
+												<div class="stories__image -ibg">
+													<img src="../travel/assets/6.jpg" alt="picture"
+														class="stories__img">
+												</div>
+											</div>
+										</div>
+										<div class="stories__item stories__item_second">
+											<div class="stories__content">
+												<h3 class="stories__header">10 Photos of Attractive Thailand</h3>
+												<p class="stories__text" lang="zxx">Lorem ipsum dolor sit amet,
+													consectetur
+													adipiscing
+													elit,
+													sed do
+													eiusmod tempor incididunt ut labore et dolore magna
+													aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+													laboris
+													nisi
+													ut
+													aliquip ex ea commodo consequat. Duis
+													aute irure dolor in reprehenderit in voluptate velit esse cillum
+													dolore
+													eu
+													fugiat
+													nulla pariatur. Excepteur sint
+													occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+													mollit
+													anim
+													id
+													est laborum.Lorem ipsum dolor sit
+													amet, consectetur adipiscing elit...</p>
+												<a href="#" class="stories__link">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="stories__row">
+										<div class="stories__item stories__item_first">
+											<div class="stories__picture">
+												<div class="stories__image -ibg">
+													<img src="../travel/assets/7.jpg" alt="picture"
+														class="stories__img">
+												</div>
+											</div>
+										</div>
+										<div class="stories__item stories__item_second">
+											<div class="stories__content">
+												<h3 class="stories__header">10 Photos of Attractive Thailand</h3>
+												<p class="stories__text" lang="zxx">Lorem ipsum dolor sit amet,
+													consectetur
+													adipiscing
+													elit,
+													sed do
+													eiusmod tempor incididunt ut labore et dolore magna
+													aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+													laboris
+													nisi
+													ut
+													aliquip ex ea commodo consequat. Duis
+													aute irure dolor in reprehenderit in voluptate velit esse cillum
+													dolore
+													eu
+													fugiat
+													nulla pariatur. Excepteur sint
+													occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+													mollit
+													anim
+													id
+													est laborum.Lorem ipsum dolor sit
+													amet, consectetur adipiscing elit...</p>
+												<a href="#" class="stories__link">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="stories__row">
+										<div class="stories__item stories__item_first">
+											<div class="stories__picture">
+												<div class="stories__image -ibg">
+													<img src="../travel/assets/8.jpg" alt="picture"
+														class="stories__img">
+												</div>
+											</div>
+										</div>
+										<div class="stories__item stories__item_second">
+											<div class="stories__content">
+												<h3 class="stories__header">10 Photos of Attractive Thailand</h3>
+												<p class="stories__text" lang="zxx">Lorem ipsum dolor sit amet,
+													consectetur
+													adipiscing
+													elit,
+													sed do
+													eiusmod tempor incididunt ut labore et dolore magna
+													aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+													laboris
+													nisi
+													ut
+													aliquip ex ea commodo consequat. Duis
+													aute irure dolor in reprehenderit in voluptate velit esse cillum
+													dolore
+													eu
+													fugiat
+													nulla pariatur. Excepteur sint
+													occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+													mollit
+													anim
+													id
+													est laborum.Lorem ipsum dolor sit
+													amet, consectetur adipiscing elit...</p>
+												<a href="#" class="stories__link">Read More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+
+								<div class="stories__see"><button class="stories__button button"> <img
+											src="../travel/assets/icon/arrow.svg" class="button__img" alt="arrow">See
+										More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="footer__container">
+				<div class="footer__info">
+					<div class="footer__empty"></div>
+					<div class="footer__copyright">All Rights Reserved © Travel Portal</div>
+					<ul class="footer__items">
+						<li class="footer__item"><a href="https://github.com/mgovoru" class="footer__link"><img
+									src="../travel/assets/icon/instagram.svg" alt="icon" class="footer__img"></a></li>
+						<li class="footer__item"><a href="https://rs.school/js/" class="footer__link"><img
+									src="../travel/assets/icon/video.svg" alt="icon" class="footer__img"></a></li>
+						<li class="footer__item"><a href="#" class="footer__link"> <img
+									src="../travel/assets/icon/twitter.svg" alt="icon" class="footer__img"></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
